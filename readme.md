@@ -11,3 +11,9 @@ You can also get in touch with the Polylith Team via our [forum](https://polylit
 <h1>roly-poly</h1>
 
 <p>Add your workspace documentation here...</p>
+
+## Work log
+
+[init project](https://polylith.gitbook.io/poly/workflow/clojure-cli-tool#:~:text=clojure%20%2DTpoly%20create%20entity%20%27%22workspace,Copied!)
+clojure -Tpoly create entity '"workspace"' name next-gen top-ns com.my-company
+
