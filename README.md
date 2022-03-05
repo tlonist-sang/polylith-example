@@ -12,8 +12,21 @@ You can also get in touch with the Polylith Team via our [forum](https://polylit
 
 <p>Add your workspace documentation here...</p>
 
-## Work log
-
+## commands
 [init project](https://polylith.gitbook.io/poly/workflow/clojure-cli-tool#:~:text=clojure%20%2DTpoly%20create%20entity%20%27%22workspace,Copied!)
+```bash
 clojure -Tpoly create entity '"workspace"' name next-gen top-ns com.my-company
+```
+
+### info
+```bash
+clojure -Tpoly info
+```
+
+### create a component
+```bash
+clojure -Tpoly create entity '"component"' name user
+```
+
+Interface
 
