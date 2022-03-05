@@ -23,10 +23,19 @@ clojure -Tpoly create entity '"workspace"' name next-gen top-ns com.my-company
 clojure -Tpoly info
 ```
 
-### create a component
+### Component
 ```bash
 clojure -Tpoly create entity '"component"' name user
+#Remember to add paths and/or local/root dependency to dev and project 'deps.edn' files.
 ```
 
-Interface
+
+
+### Base
+```bash
+clojure -Tpoly create entity '"base"' name cli
+#Remember to add paths and/or local/root dependency to dev and project 'deps.edn' files.
+```
+A base does NOT have any interface.
+
 

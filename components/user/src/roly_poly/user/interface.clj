@@ -1,4 +1,4 @@
-(ns roly-poly.user.interface
+(ns roly_poly.user.interface
   (:require [roly_poly.user.core :as core]))
 
 
