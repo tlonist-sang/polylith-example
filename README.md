@@ -18,7 +18,12 @@ You can also get in touch with the Polylith Team via our [forum](https://polylit
 clojure -Tpoly create entity '"workspace"' name next-gen top-ns com.my-company
 ```
 
-### info
+### Shell
+```bash
+clojure -Tpoly shell
+```
+
+### Info
 ```bash
 clojure -Tpoly info
 ```
@@ -29,8 +34,6 @@ clojure -Tpoly create entity '"component"' name user
 #Remember to add paths and/or local/root dependency to dev and project 'deps.edn' files.
 ```
 
-
-
 ### Base
 ```bash
 clojure -Tpoly create entity '"base"' name cli
@@ -38,4 +41,9 @@ clojure -Tpoly create entity '"base"' name cli
 ```
 A base does NOT have any interface.
 
+### Project
+```bash
+clojure -Tpoly create entity '"project"' name command-line
+#It's recommended to add an alias to :projects in ./workspace.edn for the command-line project.
+```
 
