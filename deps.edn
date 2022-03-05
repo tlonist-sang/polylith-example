@@ -11,4 +11,7 @@
                    :extra-deps {polyfy/polylith
                                 {:git/url   "https://github.com/polyfy/polylith"
                                  :sha       "f54afe3e4e38f41eae8c29d4fe65616eba79c7a6"
-                                 :deps/root "projects/poly"}}}}}
+                                 :deps/root "projects/poly"}}}
+            :build {:deps {io.github.seancorfield/build-clj {:git/tag "v0.5.2" :git/sha "8f75b81088b9809ec3cfc34e951036b3975007fd"}}
+                    :paths ["build/resources"]
+                    :ns-default build}}}

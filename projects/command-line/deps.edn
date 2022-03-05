@@ -3,5 +3,8 @@
            poly/user                    {:local/root "../../components/user"}
            poly/cli                     {:local/root "../../bases/cli"}}
 
- :aliases {:test {:extra-paths []
-                  :extra-deps  {}}}}
+ :aliases {:test    {:extra-paths []
+                     :extra-deps  {}}
+           :uberjar {:main roly_poly.cli.core}}}
+
+;roly-polyshould be lower cased

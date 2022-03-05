@@ -48,3 +48,14 @@ clojure -Tpoly create entity '"project"' name command-line
 #It's recommended to add an alias to :projects in ./workspace.edn for the command-line project.
 ```
 
+### Build
+```bash
+clojure -T:build uberjar :project command-line
+```
+
+
+### Micro-tips
+```bash
+git log --pretty=oneline
+```
+
