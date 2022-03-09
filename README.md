@@ -59,3 +59,14 @@ clojure -T:build uberjar :project command-line
 git log --pretty=oneline
 ```
 
+## HOWs
+- How is it compared to MSA?
+- How to re-use codes and co-work?
+- How to build?
+- How to run tests?
+- How to distribute?
+
+## Related resources
+- [Polylith-the last architecture you will ever need](https://www.youtube.com/watch?v=pebwHmibla4)
+- [UserManager Example, by Sean Corfield](https://github.com/seancorfield/usermanager-example/tree/polylith)
+- [RealWorld example app](https://github.com/furkan3ayraktar/clojure-polylith-realworld-example-app)
